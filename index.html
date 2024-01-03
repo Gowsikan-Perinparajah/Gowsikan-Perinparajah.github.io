@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
     <div id="mobile-menu-open" class="shadow-large">
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
     <!-- End #mobile-menu-toggle -->
+    <!-- 
     <header>
         <div id="mobile-menu-close">
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
@@ -31,9 +34,9 @@
             <li>
                 <a href="#education">Education</a>
             </li>
-<!--            <li>
+           <li>
                <a href="#projects">Projects</a> 
-            </li>-->
+            </li>
             <li>
                 <a href="#skills">TechStack/Frameworks</a>
             </li>
@@ -42,22 +45,18 @@
             </li>
         </ul>
     </header>
+-->
     <!-- End header -->
     <div id="lead">
-        <div id="lead-content">
-            <h1>Gowsikan</h1>
-            <h2>Interested in anything Data</h2>
+        <div id="lead-content" style="width: 100% !important">
+            <h1 style="margin-bottom: 25px">Gowsikan Perinparajah</h1>
+            <h2 style="margin-bottom: 0px">Business Intelligence Analyst </h2>
+            <h2 style="margin-top: 2px; margin-bottom: 30px">and Data Consultant</h2>
             <a href="Gowsikan Perinparajah Resume BA.pdf" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
         <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
         <!-- End #lead-down -->
     </div>
     <!-- End #lead -->
@@ -68,15 +67,18 @@
                 <div class="col-md-4">
                     <h2 class="heading">About Me </h2>
                 </div>
-				
+
                 <div class="col-md-8">
                     <p>
-                        Innovative data professional with 3+ years of experience, specializing in research and data strategy within energy and healthcare.
-                        Diversified skills include stakeholder management, data modelling, and data-driven decision-making. Proven leader known for
-                        exceptional communication skills and a track record of deploying customized data solutions for clients. Passionate about
+                        Innovative data professional with 3+ years of experience, specializing in research and data
+                        strategy within energy and healthcare.
+                        Diversified skills include stakeholder management, data modelling, and data-driven
+                        decision-making. Proven leader known for
+                        exceptional communication skills and a track record of deploying customized data solutions for
+                        clients. Passionate about
                         harnessing analytics to drive business strategy and deliver comprehensive results.
-					</p>
-										
+                    </p>
+
                 </div>
             </div>
         </div>
@@ -86,161 +88,64 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="November 2020 – Present">
-                <h3>Meteorological Service of Canada - (ECCC)</h3>
-                <h4>Operations/Project Analyst</h4>
-                <p>
-                    <ul>
-						<li> Developed and maintaining Power BI solution for DMS inventory and performance analysis of datasets in the
-Data Management System by creating ETL workflow and utilize visuals such as Sankey diagram
-to tell the story of data flow from the Source to the destination to various stakeholders. </li>
-			    <li>Collaborated with other divisions in ECCC departments to determine the prioritization of over
-200 projects based on importance to stakeholder, the level of effort, project time frame and
-risks by analyzing variety of measurements using payoff matrices which facilitated the upper
-management to make sound operational/financial decisions. </li>
-						<li> Developed a Data Management System to automatically monitor real-time
-status of every dataset, stations and elements ingested into the DMS (via Power Automate), in addition to also
-monitoring the tools used to access these data. This allowed us to immediately be aware of and take action on any data outages and not relying/waiting on upstream clients to report back and increased our trust in them.
-						</li>
-                        <li>Enhanced insights by connecting PowerBI to various data sources including outlook emails (M365) to obtain operational metrics on the performance of our sections to indentify improvements in current workflow. (This helped upper management reallocate resources on area lacking in support - data quality)</li>
-						<li>
-						Designed an end-to-end dataflow diagram to provide visual outline of the formats and
-direction of flows involved in the transfer for data between systems, network and
-entities/applications for MDSD Monitoring Datasets
-						</li>
-						<li>
-                            Created various python script. Few of Many:
-                            <ul>
-							<li>Generate WBS(Weather Buoy System) product to assist researchers in extracting daily buoy data to compensate for the retirement of WBS. </li>
-							<li> Automated <a href="https://agriculture.alberta.ca/acis/weather-data-viewer.jsp"> Alberta Forestry Station Metadata </a> extraction. </li>
-							<li>Automated station contact update into <a href="https://oscardepl.wmo.int/surface/ "> OSCAR/Surface </a> through GUI upload using Selenium.</li>
-                            </ul>
-						</li>
-						
-						<li>
-						Continuous development on Anomaly Detection, currently exploring using weather prediction
-and email notification from provider to identify abnormalities. (Exploring IBM Pairs to access for regression with forecast data)
-						</li> 
-                        <li> WMO Activities
-<ul>
-<li> Supported Canada’s effort for WIGOS implementation (Gap analysis Canadian status with
-regards to <a href='https://public.wmo.int/en/our-mandate/what-we-do/observations/Unified-WMO-Data-Policy-Resolution'> WMO Data Policy </a>, Develop WSI Schema plan) </li>
-<li>Assist OGDs and provinces with the upload of data into Oscar/Surface.</li>
-<li>Supported <a href='https://community.wmo.int/news/operational-newsletter'> GENOT/METNO </a> notification for tdcf bufr dissemination to WMO.</li>
-<li>Supporting WIS 2.0 by generating MCF for metadata discovery to allow ECCC datasets available via google search.</li>
-</ul>
-</li>
-
-<li>Supporting Paper digitization - Data Rescue (Recovery of physical archives) and Qc uploads of images & accommodation for XML in the archive</li>
-<li>Diagnose and Triage issues relating to the mission critical DMS system coming into the generic DMOS inbox including tracing Java code </li>
-<li>Performing Quality Control on issues that are notified through the suspect data inbox about using MIDAS (Internal data correction tool) - Supporting archive and CDO</li> 
-<li>Provided DMS and Archive data request extraction of from clients (ex; AVOS ship data request, Wind Values for instrument flaw analysis) via extracting from Legacy Oracle Database by writing efficient SQL scripts</li>
-<li>Support WMO Normals generations effort for last 3 decades (1991-2020)</li>	
-<li>Facilitate the ingest of new datasets (MSC, collaborative monitoring, etc.) into DMS and metadata(marine, collaborative monitoring, etc.) into the MR.</li>				
-</p>
+            <div data-date="2023 – Present">
+                <h3>University Health Network (UHN)</h3>
+                <h4>Business Intelligence Analyst</h4>
+                <ul>
+                    <li>
+                        Developed a dynamic PowerBI Dashboard to capture key metrics and track clinical research
+                        studies, resulting in a 20%
+                        improvement in approval time
+                    </li>
+                    <li>
+                        Validated data for new system requirements to ensure it satisfies all business needs via QA and
+                        UA Testing
+                    </li>
+                    <li>
+                        Designed and deployed a monthly email and web newsletter using Adobe Dreamweaver and Photoshop
+                        to highlight ongoing
+                        ventures and upcoming projects for 20,000 employees.
+                    </li>
+                    <li>
+                        Articulated the status of studies to 30+ research teams and approvers, allowing researchers to
+                        reduce the median time to approval by 20%
+                    </li>
+                </ul>     
             </div>
 
-            <div data-date="January 2022 – Present">
-                <h3>ProductPass</h3>
-                <h4>Product Manager - Part Time</h4>
-                <p>
-                    Independent contract at J3C (parent of ProductPass.co), providing Project/Product Management Support start-up in bringing their idea to MVP.
-					<ul>
-						<li>End to end management and delivery of the Stakes (Marketplace built on web 3.0). </li>
-						<li>Scoping out requirements, Work closely with engineers in creating user stories, bug tickets, and UAT. </li>
-					</ul>
-					<div align="right">
-					 <img src="images/skill.png" width="50" height="50" title="User acceptance testing • Release management • Stakeholder management • Backlog grooming • AGILE"/> 
-					</div>
-				</p>
+            <div data-date="2021 – Present">
+                <h3>IntriEnergy</h3>
+                <h4>Research Consultant</h4>
+
+                <ul>
+                    <li>
+                        Visualized data using Python to analyze key properties to improve efficiencies of novel solar cell film, resulting in an
+                        additional 60% more energy being captured. 
+                    </li>
+                    <li>
+                        Integrated data from multiple sources into one pipeline to drive better decisions to reduce costs and increase efficiencies by 10%
+                    </li>
+                    <li>
+                        Presented key research findings and translated technical information into business strategy to executive stakeholders, 
+                        enabling them to secure additional funding and resources for the project.
+                    </li>
+                    <li>
+                        Collaborated with research team to produce a promotional video targeting potential investors, securing $500,000+ USD in funding.
+                    </li>
+                </ul>
             </div>
 
-            <div data-date="October 2021 – July 2022">
-                <h3>StackEducation</h3>
-                <h4>Teaching Coach - Part Time</h4>
-                <p>
-					Provided guidance to Students(15-20) from University of Vermont for their industry project - Nuclei Segmentation (data science related projects in partnership with external companies) by recommending libraries to use, efficient programming principles, remove roadblocks during office hours and overall guidance on path forward.
-                    Educated stduents from Framingham State University on Data Visualization with the use of Tableau (Desktop and Server)
-                </p>
-            </div>
-			
-			            <div data-date="September 2015 – September 2019">
-                <h3>Environment and Climate Change Canada</h3>
-                <h4>Project Support Officer - FSWEP</h4>
-                <p>
-					<li> Produced business process diagram/dataflow diagram of the end-to-end flow of climate data
-and briefed senior management (directors and the director general) to help find bottlenecks
-and increase workflow. </li>
-					<li> Conducted exploratory research on the application of AI on automating QA correction of
-climate data in collaboration with MoovAI and gave feedback for validating the prototype to
-proceed with this endeavour or not.   
-					</li>             
-				</p>
-            </div>
-			
-						<div data-date="May 2018 – August 2019">
-                <h3>Environment and Climate Change Canada - (COOP: PEY)</h3>
-                <h4>Business Analyst</h4>
-                <p>
-					<li> Through consultation with clients and solutions team developed requirements documents,
-mock-ups and specification documents towards the delivery of a scalable data collection,
-visualization, and notification web application currently used by thousands of ECCC employees
-to assist with their daily tasks (data analytics, research, forecasting, etc.).   </li>
-					<li>
-					Coordinated usability and functionality testing part of user acceptance testing (UAT) of the
-web application mentioned above and sought to proceed to operational implementation from
-senior management. 	</li>
-	
-					<li>
-					Created, analyzed, and presented survey results on the adoption and usage of international
-metadata exchange standard tools developed by World Meteorological Organization (WMO, a
-UN organization) to an international audience. The user feedback contributed to the
-improvement of WMO’s OSCAR/Surface metadata exchange platform used globally. </li>
-
-                    </p>
-					
-					                <h4>Solution Developer/QA Analyst</h4>
-                <p>
-					<li> Designed and implemented a python application to catalogue meteorological datasets
-managed by the Data Management System. This catalogue greatly increased the visibility of
-ECCC datasets by publishing discovery metadata about them. </li>
-					<li>
-					Scripted python automation to perform regression of legacy versus renewed system output to
-ensure completeness and correctness.
-					</li>
-	
-
-					<li> Automated weekly inbox metric report for DMS outlook emails with Excel’s VBA code allowed
-the Project management team to easily prioritize task and pinpoint bottle necks that were
-causing delays. </li>  
-                    </p>
-            </div>
-			
-			            <div data-date="January 2018 – December 2018">
-                <h3>University of Toronto - Department of Computer Science, Mathematics and Statistics</h3>
-                <h4>Teaching Assitant - Part Time</h4>
-                <p> Database and Web Application (2 semseters), Software Design (1 semseter).
-					<li> Carried out tutorials and office hours and taught weekly lessons to second year computer
-science students to prepare them for assignments/midterms and finals, in addition to marking
-assignments and answering questions on Piazza for students  </li>
-					<li> Collaborated with the course professor to come up with creative assignments to both further
-enhance the students’ learning and experience in the course. </li>
-					<li> Automated assignment marking by writing scripts to validate solutions and to input marks into
-excel sheet saving valuable time for TAs to spend interacting with students directly. </li>
-
-                </p>
-            </div>
-			
-			            <div data-date="May 2017 – May 2018">
-                <h3>Toronto Pan Am Sport Center -  Department of Athletics and Recreation/TPASC</h3>
-                <h4>MoveU Social Media Coordinator</h4>
-                <p>
-                    <li> Responsible for regular updates and site maintenance of the moveU website and incorporated social
-media (facebook, instagram, twitter) platform into the site. </li>
-					<li> Designed and authored monthly newsletters using MailChimp to inform and update students about
-physical and mental health activities going around in the community which was read by thousands of
-students across the U of T campus. </li>
-                </p>
+            <div data-date="2022 - 2023">
+                <h3>PCINET LLC</h3>
+                <h4>Miva Developer</h4>
+                <ul>
+                    <li>
+                        Developed and enhanced 7+ custom-build e-commerce websites for clients, 2 of which were awarded “Best Enterprise Website” by MIVA, utilizing HTML, CSS, JavaScript, MivaScript, and various libraries.
+                    </li>
+                    <li>
+                        Synchronized live product data to Google Merchant Center to improve sales and advertisements.
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -252,30 +157,28 @@ students across the U of T campus. </li>
         <div class="education-block">
             <h3>Queen's University - Smith School of Business</h3>
             <span class="education-date">Class of 2024</span>
-            <h4>Masters</h4>
+            <h4>Masters in Management Analytics</h4>
             <ul>
                 <li>
-                    Management Analytics
+                    Member of the Student Executive Team: Work with a team of 10 to gather feedback and facilitate
+                    requests between students and faculty/staff with a 100% acceptance rate.
                 </li>
             </ul>
         </div>
         <div class="education-block">
             <h3>Ontario Tech University</h3>
             <span class="education-date">Class of 2018</span>
-            <h4>Bachelor of Science Honours</h4>
+            <h4>Bachelor of Science Honours (Comprehensive Physics, Mathematics) </h4>
             <ul>
                 <li>
-                    Comprehensive Physics
-                </li>
-                <li>
-                    Mathematics Minor
+                    Completed an Undergraduate Honours Thesis in Solid-State Physics
                 </li>
             </ul>
         </div>
         <!-- End .education-block -->
     </div>
     <!-- End #education -->
-<!--
+    <!--
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
         <div class="container">
@@ -314,61 +217,50 @@ students across the U of T campus. </li>
             </div>
         </div>
     </div>
-   End #projects -->
-
+-->
     <div id="skills">
         <h2 class="heading">Technologies & Frameworks</h2>
         <ul>
-            <li>Python</li>
-            <li>R</li>
-			<li>SQL</li>
-			<li>Javascript</li>
-            <li>React</li>
-            <li>Azure</li>
-            <li>PowerBI</li>
-            <li>Tableau</li>
-            <li>Looker (lookML)</li>
-            <li>Jira</li>
+            <li>Programming Languages: SQL, Python, JavaScript</li>
+            <li>Databases: MySQL, Microsoft SQL Server, MongoDB</li>
+            <li>Data Visualization Tools: PowerBI, Tableau</li>
+            <li>Cloud Tools: Azure, Databricks</li>
         </ul>
     </div>
     <!-- End #skills -->
 
-    <div id="contact" >
-		<div>
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="mailto:perinparajahg@gmail.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="example@domain.com" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-			
-        </div>
-		</div>
+    <div id="contact">
+        <div>
+            <h2>Get in Touch</h2>
+            <div id="contact-form">
+                <form method="POST" action="mailto:perinparajahg@gmail.com">
+                    <input type="hidden" name="_subject" value="Contact request from personal website" />
+                    <input type="email" name="_replyto" placeholder="example@domain.com" required>
+                    <textarea name="message" placeholder="Your message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
 
-		
+            </div>
+        </div>
+
+
         <!-- End #contact-form -->
     </div>
-	
+
     <!-- End #contact -->
 
+    <!--
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-sm-5 copyright">
+                <div class="copyright" style="display:flex; justify-content: center;">
                     <p>
                         Copyright &copy; <span id="current-year">
                                 <script type="text/javascript">document.write( new Date().getFullYear() );</script>
                         </span> Gowsikan Perinparajah
                     </p>
                 </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <!-- 
+                
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
@@ -390,11 +282,14 @@ students across the U of T campus. </li>
                             <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                         </li>
                     </ul>
-                </div> -->
+                </div> 
             </div>
         </div>
-    </footer>
+    </footer> 
+-->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
