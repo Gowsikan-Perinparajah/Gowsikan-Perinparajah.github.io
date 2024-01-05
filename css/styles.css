@@ -526,7 +526,7 @@ footer {
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid #dcd9d9;
-    text-align: center
+    text-align: center;
 }
 
 #projects h2 {
@@ -539,20 +539,7 @@ footer {
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
-    background: #fff;
-    border-radius: 4px
-}
-
-.project-image {
-    float: left
-}
-
-.project-info {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 300px;
-    padding: 15px
+    border-radius: 4px;
 }
 
 .project-info h3 {
@@ -609,7 +596,7 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: #002060;
+    background: rgba(33, 125, 187, 0.8);
     text-align: center
 }
 
